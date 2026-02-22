@@ -8,7 +8,6 @@ psycopg2-binary==2.9.11
 pydantic==2.11.7
 pydantic_core==2.33.2
 pyee==13.0.1
-requests==2.32.5
 SQLAlchemy==2.0.44
 sqlmodel==0.0.35
 typing-inspection==0.4.1
