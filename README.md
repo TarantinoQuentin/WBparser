@@ -22,7 +22,7 @@
 1. **Клонируйте репозиторий:**
    ```bash
    git clone https://github.com
-   cd wb-positions-parser
+   cd WBparser
 
 2. **Настройка виртуального окружения:**
     ```bash
