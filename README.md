@@ -21,7 +21,7 @@
 
 1. **Клонируйте репозиторий:**
    ```bash
-   git clone https://github.com
+   git clone https://github.com/TarantinoQuentin/WBparser.git
    cd WBparser
 
 2. **Настройка виртуального окружения:**

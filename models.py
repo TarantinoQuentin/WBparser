@@ -18,8 +18,10 @@ class WBPosition(SQLModel, table=True):
     sku: str  # Артикул
     link: str  # Ссылка
 
+DB_PASS = ''
+DB_NAME = ''
 
-DB_URL = "postgresql://user:pass@localhost:5432/dbname"
+DB_URL = f"postgresql://postgres:{DB_PASS}@localhost:5432/{DB_NAME}"
 engine = create_engine(DB_URL)
 
 def create_db_and_tables() -> None:
