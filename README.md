@@ -29,6 +29,7 @@
     python -m venv .venv
     source .venv/bin/activate  # Для Windows: .venv\Scripts\activate
     pip install -r requirements.txt
+    playwright install chromium
 
 3. **Настройка базы данных:**
     ```
