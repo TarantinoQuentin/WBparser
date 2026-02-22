@@ -19,7 +19,7 @@ class WBPosition(SQLModel, table=True):
     link: str  # Ссылка
 
 
-DB_URL = "postgresql://postgres:0000@localhost:5432/wb_parser"
+DB_URL = "postgresql://user:pass@localhost:5432/dbname"
 engine = create_engine(DB_URL)
 
 def create_db_and_tables() -> None:
